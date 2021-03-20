@@ -6,7 +6,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="MainActivity" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="desserttimer" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="info" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
@@ -30,23 +30,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fddacba7-5d97-4d0a-8283-e6f7b921b4c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_timber_timber_4_7_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_16_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/dessertclicker/ClickerApplication.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/DessertClicker-Starter.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/DessertClicker-Starter.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/dessertclicker/DessertTimer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/dessertclicker/DessertTimer.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/dessertclicker/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/dessertclicker/MainActivity.kt" afterDir="false" />
     </list>
     <list id="9536b7db-0100-45fc-bec1-614f2ff9ff03" name="Revert &quot;Initial commit&quot;" comment="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit 86704c94" />
@@ -179,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616258443182</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="3.2 Menggunakan Timber untuk Logging">
+      <created>1616259529058</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616259529058</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,7 +193,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="3.1 Mempelajari method onCreate dan Logging" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.1 Mempelajari method onCreate dan Logging" />
+    <MESSAGE value="3.2 Menggunakan Timber untuk Logging" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.2 Menggunakan Timber untuk Logging" />
   </component>
   <component name="WindowStateProjectService">
     <state x="167" y="116" key="#PSD" timestamp="1616257300658">
@@ -208,30 +205,30 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="514" y="81" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/1920.208.1366.768@0.0.1536.864" timestamp="1616259193544" />
-    <state x="189" y="0" key="CommitChangelistDialog2" timestamp="1616258441668">
+    <state x="189" y="0" key="CommitChangelistDialog2" timestamp="1616259527312">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="189" y="0" key="CommitChangelistDialog2/0.0.1536.864/1920.208.1366.768@0.0.1536.864" timestamp="1616258441668" />
-    <state width="1483" height="161" key="GridCell.Tab.0.bottom" timestamp="1616257921967">
+    <state x="189" y="0" key="CommitChangelistDialog2/0.0.1536.864/1920.208.1366.768@0.0.1536.864" timestamp="1616259527312" />
+    <state width="1483" height="484" key="GridCell.Tab.0.bottom" timestamp="1616259510073">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1483" height="161" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.208.1366.768@0.0.1536.864" timestamp="1616257921967" />
-    <state width="1483" height="161" key="GridCell.Tab.0.center" timestamp="1616257921964">
+    <state width="1483" height="484" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.208.1366.768@0.0.1536.864" timestamp="1616259510073" />
+    <state width="1483" height="484" key="GridCell.Tab.0.center" timestamp="1616259510072">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1483" height="161" key="GridCell.Tab.0.center/0.0.1536.864/1920.208.1366.768@0.0.1536.864" timestamp="1616257921964" />
-    <state width="1483" height="161" key="GridCell.Tab.0.left" timestamp="1616257921961">
+    <state width="1483" height="484" key="GridCell.Tab.0.center/0.0.1536.864/1920.208.1366.768@0.0.1536.864" timestamp="1616259510072" />
+    <state width="1483" height="484" key="GridCell.Tab.0.left" timestamp="1616259510071">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1483" height="161" key="GridCell.Tab.0.left/0.0.1536.864/1920.208.1366.768@0.0.1536.864" timestamp="1616257921960" />
-    <state width="1483" height="161" key="GridCell.Tab.0.right" timestamp="1616257921966">
+    <state width="1483" height="484" key="GridCell.Tab.0.left/0.0.1536.864/1920.208.1366.768@0.0.1536.864" timestamp="1616259510071" />
+    <state width="1483" height="484" key="GridCell.Tab.0.right" timestamp="1616259510072">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1483" height="161" key="GridCell.Tab.0.right/0.0.1536.864/1920.208.1366.768@0.0.1536.864" timestamp="1616257921966" />
-    <state x="261" y="102" key="Vcs.Push.Dialog.v2" timestamp="1616258452126">
+    <state width="1483" height="484" key="GridCell.Tab.0.right/0.0.1536.864/1920.208.1366.768@0.0.1536.864" timestamp="1616259510072" />
+    <state x="261" y="102" key="Vcs.Push.Dialog.v2" timestamp="1616259540567">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="261" y="102" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.208.1366.768@0.0.1536.864" timestamp="1616258452126" />
+    <state x="261" y="102" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.208.1366.768@0.0.1536.864" timestamp="1616259540567" />
     <state x="537" y="328" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616257362744">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
